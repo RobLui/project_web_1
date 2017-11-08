@@ -1,0 +1,390 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    font-family: 'Vast Shadow', cursive, sans-serif;
+    background-image: url(pictures/RetroBG.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    overflow-x: hidden;
+    text-align: center;
+}
+/**********************************************
+                 SEARCH
+***********************************************/
+
+input {
+    height: 3em;
+    width: 24em;
+}
+
+.form-wrapper {
+    width: 28em;
+    padding: 0.8em;
+    margin: 2% auto;
+    background: #444;
+}
+
+.form-wrapper button {
+    border: 0;
+    cursor: pointer;
+    height: 3.5em;
+    width: 8em;
+    color: #fff;
+    text-transform: uppercase;
+    background: #d83c3c;
+}
+/**********************************************
+                 NAVIGATION
+***********************************************/
+
+nav {
+    padding: 0.5em;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    background-color: #29313B;
+}
+
+nav ul li {
+    width: 15%;
+    float: right;
+}
+
+nav ul li a {
+    text-align: center;
+}
+
+nav ul li:last-child {
+    margin-right: 20%;
+}
+
+* a {
+    padding: 0.8em;
+    display: block;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+nav a:hover {
+    color: aquamarine;
+}
+/**********************************************
+                    HOME
+***********************************************/
+
+.figures li {
+    width: 20%;
+    height: 34em;
+    margin-top: 2%;
+    float: left;
+    text-align: center;
+    cursor: pointer;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.figures li img {
+    padding: 2em;
+}
+
+.figures li:first-child {
+    background-color: rgba(168, 23, 23, 0.44);
+}
+
+.figures li:nth-child(2) {
+    background-color: rgba(113, 119, 36, 0.38);
+}
+
+.figures li:nth-child(3) {
+    background-color: rgba(15, 140, 170, 0.44);
+}
+
+.figures li:nth-child(4) {
+    background-color: rgba(16, 11, 56, 0.44);
+}
+
+.figures li:nth-child(5) {
+    background-color: rgba(92, 42, 42, 0.46);
+}
+
+.figures li img {
+    height: 20em;
+}
+
+.figures p {
+    margin-top: 10%;
+    color: rgb(255, 255, 255);
+    font-size: 1.3em;
+}
+
+.figures li:hover {
+    background-color: rgba(11, 54, 113, 0.37);
+}
+
+.foota {
+    margin-top: 670px;
+}
+
+.active {
+    color: yellow;
+}
+/**********************************************
+               PRODUCTS
+***********************************************/
+
+.fullHeightBg .content {
+    margin: 0 auto;
+    padding: 2em 1.5em 5em 1.5em;
+    width: 50%;
+    height: 100%;
+    background-color: rgba(0, 227, 255, 0.25);
+}
+
+.productContent a {
+    margin-top: 2.5em;
+    padding: 5%;
+    color: aliceblue;
+    text-decoration: none;
+    display: block;
+}
+}
+.wooden-toysProducts,
+.tin-toysProducts,
+.diecastProducts,
+.dolls-bearsProducts,
+.actionfiguresProducts,
+.otherProducts {
+    box-shadow: 0 1em 3em rgba(134, 182, 203, 0.55);
+    text-shadow: 0.2em 0.1em black;
+}
+.tin-toysProducts {
+    background-image: url(pictures/tintoyd2.png)
+}
+.wooden-toysProducts {
+    background-image: url(pictures/woodenToys.png);
+}
+.diecastProducts {
+    background-image: url(pictures/diecast.png);
+}
+.dolls-bearsProducts {
+    background-image: url(pictures/dollsnbearsIMG.png);
+}
+.actionfiguresProducts {
+    background-image: url(pictures/ActionFigures.png);
+}
+.otherProducts {
+    background-image: url(pictures/otherToy.png);
+}
+/**********************************************
+                    GALLERY
+***********************************************/
+
+.one-Gallery {
+    display: block;
+    margin: 0 auto;
+    margin-top: 2%;
+    padding: 0.7em;
+    height: 15em;
+    width: 44%;
+    border: 0.2em solid rgba(97, 93, 208, 0.63);
+    box-shadow: 0 1em 5em rgba(35, 69, 183, 0.72);
+    border-radius: 1em;
+}
+.one-Gallery h2 {
+    text-align: center;
+    font-size: 1.6em;
+    color: white;
+}
+.one-Gallery img {
+    margin-top: 3em;
+    margin-left: 1em;
+    height: 8em;
+    width: 7em;
+    border: 0.1em solid black;
+    border-radius: 9%;
+    box-shadow: 0 0.6em 1em rgba(131, 37, 37, 0.89);
+}
+.one-Gallery img:hover {
+    transform: scale3d(2.35, 2.35, 1);
+    transition: 1s, 0.5s, 0s;
+}
+/**********************************************
+                    ABOUT
+***********************************************/
+
+.about-left,
+.about-right {
+    margin: 0 auto;
+}
+.about-right {}
+.about-right {
+    width: 40em;
+    background-color: rgba(208, 188, 188, 0.92);
+    text-align: left;
+}
+.about-right p {
+    padding: 2em;
+    border: 0.05em solid black;
+}
+.about-right p:first-child,
+.about-right p:nth-child(4) {
+    padding: 2em;
+    background-color: rgba(20, 206, 49, 0.74);
+    border-top-right-radius: inherit;
+    border-top-left-radius: inherit;
+}
+.about-right p:nth-child(3) {
+    background-color: rgba(247, 34, 34, 0.53);
+}
+.about-right p:nth-child(2),
+.about-right p:nth-child(5) {
+    padding: 2em;
+    background-color: rgba(22, 116, 150, 0.67);
+}
+.about-right span {
+    font-weight: 600;
+}
+/**********************************************
+                    CONTACT
+***********************************************/
+
+.first {
+    display: inline-block;
+    width: 40%;
+    padding: 2%;
+    background-color: rgba(67, 80, 98, 0.44);
+    color: white;
+}
+.first h2 {
+    margin-bottom: 1em;
+    padding: 3%;
+    text-align: center;
+    border: 0.1em solid #219cc1;
+    background: rgba(83, 32, 66, 0.28)
+}
+.first label {
+    float: left;
+    margin-left: 1.3em;
+}
+.first img {
+    width: 15em;
+    height: 5em;
+}
+.first input {
+    padding: 2%;
+    margin-top: 1.5em;
+    margin-bottom: 2em;
+    width: 90%;
+    border-radius: 0.5em;
+}
+.first input:hover {
+    background-color: rgba(1, 116, 131, 0.69);
+}
+textarea {
+    width: 94%;
+    height: 9em;
+    margin-top: 0.8em;
+    margin-bottom: 1em;
+    font-size: 1.5em;
+    border-radius: 0.5em;
+}
+input[type=submit] {
+    background-color: rgba(35, 97, 168, 0.57);
+    border: 0;
+    color: #fff;
+    width: 94%;
+    height: 2.5em;
+    font-size: 1.25em
+}
+input[type=submit]:hover {
+    cursor: pointer;
+}
+footer {
+    margin-top: ;
+    padding: 1em;
+    width: 100%;
+    background-color: #29313B;
+    color: white;
+    float: left;
+}
+@media (max-width: 1260px) {
+    .about-right,
+    .about-left img {
+        height: auto;
+        width: 100%;
+    }
+}
+@media(max-width:1539px) {
+    .one-Gallery img {
+        clear: left;
+        height: 80px;
+        width: 80px;
+    }
+    
+    .one-Gallery {
+        width: 100%;
+        height: auto;
+    }
+}
+.figures li img {
+    clear: left;
+    width: auto;
+    height: 200px;
+    margin-top: 100px;
+}
+.figures img {
+    width: 400px;
+}
+@media (max-width: 900px) {
+    .wooden-toysProducts,
+    .tin-toysProducts,
+    .diecastProducts,
+    .dolls-bearsProducts,
+    .actionfiguresProducts,
+    .otherProducts {
+        height: 10em;
+        margin: 1em;
+        padding: 1em;
+        display: block;
+    }
+}
+@media (max-width: 960px) {
+    .figures li {
+        clear: left;
+        width: 100%
+    }
+    
+    .figures
+}
+@media(max-width:630px) {
+    .content .first img {
+        width: 90%;
+        height: auto;
+        display: block;
+    }
+}
+@media(max-width:750px) {
+    nav ul li {
+        clear: both;
+        display: block;
+        width: 700px;
+        float: left;
+        margin: auto 0;
+        background-color: rgba(38, 144, 136, 0.38);
+    }
+}
+@media(max-width:740px) {
+    nav ul li {
+        width: 100%;
+        height: 100%;
+    }
+}
