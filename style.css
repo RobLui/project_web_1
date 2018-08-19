@@ -9,13 +9,14 @@ li {
 
 body {
     font-family: 'Vast Shadow', cursive, sans-serif;
-    background-image: url(pictures/RetroBG.jpg);
+    background-image: url(pictures/rs-retro-bg.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     overflow-x: hidden;
     text-align: center;
 }
+
 /**********************************************
                  SEARCH
 ***********************************************/
@@ -41,6 +42,7 @@ input {
     text-transform: uppercase;
     background: #d83c3c;
 }
+
 /**********************************************
                  NAVIGATION
 ***********************************************/
@@ -75,6 +77,7 @@ nav ul li:last-child {
 nav a:hover {
     color: aquamarine;
 }
+
 /**********************************************
                     HOME
 ***********************************************/
@@ -137,6 +140,7 @@ body {
 .active {
     color: yellow;
 }
+
 /**********************************************
                PRODUCTS
 ***********************************************/
@@ -156,7 +160,9 @@ body {
     text-decoration: none;
     display: block;
 }
+
 }
+
 .wooden-toysProducts,
 .tin-toysProducts,
 .diecastProducts,
@@ -166,24 +172,31 @@ body {
     box-shadow: 0 1em 3em rgba(134, 182, 203, 0.55);
     text-shadow: 0.2em 0.1em black;
 }
+
 .tin-toysProducts {
     background-image: url(pictures/tintoyd2.png)
 }
+
 .wooden-toysProducts {
     background-image: url(pictures/woodenToys.png);
 }
+
 .diecastProducts {
     background-image: url(pictures/diecast.png);
 }
+
 .dolls-bearsProducts {
     background-image: url(pictures/dollsnbearsIMG.png);
 }
+
 .actionfiguresProducts {
     background-image: url(pictures/ActionFigures.png);
 }
+
 .otherProducts {
     background-image: url(pictures/otherToy.png);
 }
+
 /**********************************************
                     GALLERY
 ***********************************************/
@@ -199,11 +212,13 @@ body {
     box-shadow: 0 1em 5em rgba(35, 69, 183, 0.72);
     border-radius: 1em;
 }
+
 .one-Gallery h2 {
     text-align: center;
     font-size: 1.6em;
     color: white;
 }
+
 .one-Gallery img {
     margin-top: 3em;
     margin-left: 1em;
@@ -213,10 +228,12 @@ body {
     border-radius: 9%;
     box-shadow: 0 0.6em 1em rgba(131, 37, 37, 0.89);
 }
+
 .one-Gallery img:hover {
     transform: scale3d(2.35, 2.35, 1);
     transition: 1s, 0.5s, 0s;
 }
+
 /**********************************************
                     ABOUT
 ***********************************************/
@@ -225,16 +242,20 @@ body {
 .about-right {
     margin: 0 auto;
 }
+
 .about-right {}
+
 .about-right {
     width: 40em;
     background-color: rgba(208, 188, 188, 0.92);
     text-align: left;
 }
+
 .about-right p {
     padding: 2em;
     border: 0.05em solid black;
 }
+
 .about-right p:first-child,
 .about-right p:nth-child(4) {
     padding: 2em;
@@ -242,17 +263,21 @@ body {
     border-top-right-radius: inherit;
     border-top-left-radius: inherit;
 }
+
 .about-right p:nth-child(3) {
     background-color: rgba(247, 34, 34, 0.53);
 }
+
 .about-right p:nth-child(2),
 .about-right p:nth-child(5) {
     padding: 2em;
     background-color: rgba(22, 116, 150, 0.67);
 }
+
 .about-right span {
     font-weight: 600;
 }
+
 /**********************************************
                     CONTACT
 ***********************************************/
@@ -264,6 +289,7 @@ body {
     background-color: rgba(67, 80, 98, 0.44);
     color: white;
 }
+
 .first h2 {
     margin-bottom: 1em;
     padding: 3%;
@@ -271,14 +297,17 @@ body {
     border: 0.1em solid #219cc1;
     background: rgba(83, 32, 66, 0.28)
 }
+
 .first label {
     float: left;
     margin-left: 1.3em;
 }
+
 .first img {
     width: 15em;
     height: 5em;
 }
+
 .first input {
     padding: 2%;
     margin-top: 1.5em;
@@ -286,9 +315,11 @@ body {
     width: 90%;
     border-radius: 0.5em;
 }
+
 .first input:hover {
     background-color: rgba(1, 116, 131, 0.69);
 }
+
 textarea {
     width: 94%;
     height: 9em;
@@ -297,6 +328,7 @@ textarea {
     font-size: 1.5em;
     border-radius: 0.5em;
 }
+
 input[type=submit] {
     background-color: rgba(35, 97, 168, 0.57);
     border: 0;
@@ -305,9 +337,11 @@ input[type=submit] {
     height: 2.5em;
     font-size: 1.25em
 }
+
 input[type=submit]:hover {
     cursor: pointer;
 }
+
 footer {
     margin-top: ;
     padding: 1em;
@@ -316,6 +350,7 @@ footer {
     color: white;
     float: left;
 }
+
 @media (max-width: 1260px) {
     .about-right,
     .about-left img {
@@ -323,27 +358,30 @@ footer {
         width: 100%;
     }
 }
+
 @media(max-width:1539px) {
     .one-Gallery img {
         clear: left;
         height: 80px;
         width: 80px;
     }
-    
     .one-Gallery {
         width: 100%;
         height: auto;
     }
 }
+
 .figures li img {
     clear: left;
     width: auto;
     height: 200px;
     margin-top: 100px;
 }
+
 .figures img {
     width: 400px;
 }
+
 @media (max-width: 900px) {
     .wooden-toysProducts,
     .tin-toysProducts,
@@ -357,14 +395,15 @@ footer {
         display: block;
     }
 }
+
 @media (max-width: 960px) {
     .figures li {
         clear: left;
         width: 100%
     }
-    
     .figures
 }
+
 @media(max-width:630px) {
     .content .first img {
         width: 90%;
@@ -372,6 +411,7 @@ footer {
         display: block;
     }
 }
+
 @media(max-width:750px) {
     nav ul li {
         clear: both;
@@ -382,6 +422,7 @@ footer {
         background-color: rgba(38, 144, 136, 0.38);
     }
 }
+
 @media(max-width:740px) {
     nav ul li {
         width: 100%;
